@@ -1,0 +1,10 @@
+create table campos_sara.persona(
+	documento integer not null,
+	nombre text not null,
+	primary key(documento)
+);
+
+insert into campos_sara.persona(documento, nombre) values (1,'Andres');
+insert into campos_sara.persona(documento, nombre) values (2,'Carlos');
+insert into campos_sara.persona(documento, nombre) values (3,'Jorge');
+insert into campos_sara.persona(documento, nombre) values (4,'Pedro');
